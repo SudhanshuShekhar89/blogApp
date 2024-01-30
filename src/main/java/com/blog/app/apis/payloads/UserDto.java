@@ -38,17 +38,17 @@ public class UserDto {
 
 	private Set<RoleDto> roles=new HashSet<>();
 
-	// isko new comment kiya hai
 
-//	@JsonIgnore
-//	public String getPassword() {
-//
-//		return this.password;
-//	}
-//
-//	@JsonProperty
-//	public void setPassword(String password) {
-//		this.password=password;
-//	}
+
+	@JsonIgnore
+	public String getPassword() {
+
+		return this.password;
+	}
+
+	@JsonProperty
+	public void setPassword(String password) {
+		this.password=password;
+	}
 
 }
